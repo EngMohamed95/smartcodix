@@ -25,10 +25,15 @@ jobs:
     - name: 🏗️ Build Project
       run: npm run build
 
+    - name: 🧹 Sanitize FTP Server URL
+      run: |
+        CLEAN_SERVER=$(echo "${{ secrets.FTP_SERVER }}" | sed -e 's|^[a-zA-Z]*://||' -e 's|/.*$||' -e 's| *$||')
+        echo "CLEAN_SERVER=$CLEAN_SERVER" >> $GITHUB_ENV
+
     - name: 🚀 Sync Files to Hostinger FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        server: ${{ env.CLEAN_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
