@@ -2912,3 +2912,82 @@ html[dir="rtl"] .selector-meta {
   }
 }
 
+/* Services Page CTA Section Styling */
+.services-cta-section {
+  padding: 80px 24px;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.services-cta-card {
+  position: relative;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 30px;
+  padding: 60px 40px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.cta-card-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, var(--green-glow) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.cta-card-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 2;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+}
+
+.cta-card-desc {
+  font-size: 16px;
+  color: var(--text-muted);
+  max-width: 650px;
+  margin: 0 auto 32px auto;
+  position: relative;
+  z-index: 2;
+  line-height: 1.6;
+}
+
+.services-cta-card .cta-primary-btn {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .services-cta-section {
+    padding: 60px 16px;
+  }
+  .services-cta-card {
+    padding: 40px 20px;
+    border-radius: 20px;
+  }
+  .cta-card-title {
+    font-size: 28px;
+  }
+  .cta-card-desc {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+}
+
+
