@@ -122,7 +122,7 @@ const translations = {
     contactInfoTitle: "معلومات الاتصال",
     contactInfoAddress: "القاهرة، مصر",
     contactInfoEmail: "info@smartcodix.com",
-    contactInfoPhone: "+20 109 404 0671",
+    contactInfoPhone: "01094040671",
     whatsappBtn: "تحدث معنا عبر واتساب",
     footerText: "حلول ويب برمجية فاخرة وتسويق رقمي مدروس مصمم للنمو، الصدارة، ومضاعفة المبيعات.",
     footerCopyright: "© 2026 سمارت كودكس. جميع الحقوق محفوظة."

@@ -35,13 +35,13 @@ const Footer = ({ setActivePage }) => {
             </div>
             <p className="footer-brand-desc">{t('footerText')}</p>
             <div className="footer-socials">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Facebook">
+              <a href="https://www.facebook.com/smartcodix" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Facebook">
                 <FiFacebook />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Instagram">
+              <a href="https://www.instagram.com/smartcodix/" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Instagram">
                 <FiInstagram />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/smartcodix" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="LinkedIn">
                 <FiLinkedin />
               </a>
             </div>
@@ -73,7 +73,7 @@ const Footer = ({ setActivePage }) => {
               </li>
               <li>
                 <FiPhone className="contact-icon-inline" />
-                <a href={`tel:${t('contactInfoPhone')}`}>{t('contactInfoPhone')}</a>
+                <a href={`tel:${t('contactInfoPhone')}`} dir="ltr">{t('contactInfoPhone')}</a>
               </li>
             </ul>
           </div>

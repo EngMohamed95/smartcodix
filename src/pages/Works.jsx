@@ -81,22 +81,7 @@ const projectsData = [
     "img": "/img/step.jpg",
     "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
   },
-  {
-    "id": 8,
-    "url": "https://matixerp.com/",
-    "category": "wordpress",
-    "titleEn": "Matix ERP",
-    "titleAr": "ماتيكس لنظم الموارد ERP",
-    "descEn": "Enterprise ERP",
-    "descAr": "منصة رقمية متكاملة لـ ماتيكس لنظم الموارد ERP.",
-    "tags": [
-      "PHP",
-      "SQL",
-      "JavaScript"
-    ],
-    "img": "/img/matix.jpg",
-    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
-  },
+
   {
     "id": 10,
     "url": "https://advertupeg.com/",
@@ -229,20 +214,7 @@ const projectsData = [
     "img": "/img/telal.jpg",
     "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
   },
-  {
-    "id": 22,
-    "url": "https://alsaifkw.com/",
-    "category": "wordpress",
-    "titleEn": "Al Saif KW",
-    "titleAr": "السيف الكويتية",
-    "descEn": "Corporate",
-    "descAr": "منصة رقمية متكاملة لـ السيف الكويتية.",
-    "tags": [
-      "WordPress"
-    ],
-    "img": "/img/alsaif.png",
-    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
-  },
+
   {
     "id": 23,
     "url": "https://jwatha.net/",
@@ -313,34 +285,7 @@ const projectsData = [
     "img": "/img/trendneon.png",
     "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
   },
-  {
-    "id": 30,
-    "url": "https://jalabyastore.com/",
-    "category": "wordpress",
-    "titleEn": "Jalabya Store",
-    "titleAr": "متجر الجلابية",
-    "descEn": "E-commerce",
-    "descAr": "منصة رقمية متكاملة لـ متجر الجلابية.",
-    "tags": [
-      "WooCommerce"
-    ],
-    "img": "/img/jalabya.jpg",
-    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
-  },
-  {
-    "id": 31,
-    "url": "https://urbansectionkuwait.com/",
-    "category": "wordpress",
-    "titleEn": "Urban Section",
-    "titleAr": "أوربان سكشن للتصميم",
-    "descEn": "Design",
-    "descAr": "منصة رقمية متكاملة لـ أوربان سكشن للتصميم.",
-    "tags": [
-      "WordPress"
-    ],
-    "img": "/img/urban.png",
-    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
-  },
+
   {
     "id": 33,
     "url": "https://movacarpets.com/",
@@ -482,9 +427,9 @@ const projectsData = [
     "url": "https://basmateck.com/",
     "category": "web",
     "titleEn": "Basma Teck",
-    "titleAr": "بسمة تك للحلول",
+    "titleAr": "بصمة تك",
     "descEn": "Software Solutions",
-    "descAr": "منصة رقمية متكاملة لـ بسمة تك للحلول.",
+    "descAr": "منصة رقمية متكاملة لـ بصمة تك.",
     "tags": [
       "React",
       "Next.js",

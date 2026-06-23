@@ -173,7 +173,7 @@ const Home = ({ setActivePage }) => {
             }}>
               <span className="teaser-link-tag">Basma Teck</span>
             </div>
-            <h4 className="teaser-card-title">{lang === 'en' ? "SaaS Solutions" : "حلول برمجية مخصصة"}</h4>
+            <h4 className="teaser-card-title">{lang === 'en' ? "SaaS Solutions" : "بصمة تك"}</h4>
           </div>
         </div>
       </section>

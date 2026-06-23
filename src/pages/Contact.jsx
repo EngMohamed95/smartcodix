@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi';
+import { FiMail, FiPhone, FiMapPin, FiSend, FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 const Contact = () => {
   const { lang, t } = useLanguage();
@@ -22,13 +22,25 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
+    const whatsappNumber = "201094040671"; // Phone number from translations (+20 109 404 0671)
+    const messageText = lang === 'en' 
+      ? `Hello, I'd like to inquire about a project.\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone || 'N/A'}\n*Message:* ${formData.message}`
+      : `السلام عليكم، أريد الاستفسار عن مشروع.\n\n*الاسم:* ${formData.name}\n*البريد الإلكتروني:* ${formData.email}\n*رقم الهاتف:* ${formData.phone || 'غير محدد'}\n*الرسالة:* ${formData.message}`;
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(messageText)}`;
+
     // Simulate submission delay
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitSuccess(true);
+      
+      // Open WhatsApp chat in a new tab
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+      
+      // Reset form
       setFormData({ name: '', email: '', phone: '', message: '' });
       setTimeout(() => setSubmitSuccess(false), 5000);
-    }, 1500);
+    }, 1000);
   };
 
   return (
@@ -71,8 +83,25 @@ const Contact = () => {
                 <div className="info-icon-wrapper"><FiPhone /></div>
                 <div className="info-text">
                   <span>{lang === 'en' ? "Phone & WhatsApp" : "الهاتف والواتساب"}</span>
-                  <a href={`tel:${t('contactInfoPhone')}`}>{t('contactInfoPhone')}</a>
+                  <a href={`tel:${t('contactInfoPhone')}`} dir="ltr">{t('contactInfoPhone')}</a>
                 </div>
+              </div>
+            </div>
+
+            <div className="contact-socials-wrapper" style={{ marginTop: '30px', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '20px' }}>
+              <span className="socials-label" style={{ display: 'block', fontSize: '12px', color: 'var(--text-muted)', marginBottom: '12px' }}>
+                {lang === 'en' ? "Social Media" : "وسائل التواصل الاجتماعي"}
+              </span>
+              <div className="contact-social-icons" style={{ display: 'flex', gap: '12px' }}>
+                <a href="https://www.facebook.com/smartcodix" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Facebook">
+                  <FiFacebook />
+                </a>
+                <a href="https://www.instagram.com/smartcodix/" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="Instagram">
+                  <FiInstagram />
+                </a>
+                <a href="https://www.linkedin.com/company/smartcodix" target="_blank" rel="noopener noreferrer" className="social-icon-btn" aria-label="LinkedIn">
+                  <FiLinkedin />
+                </a>
               </div>
             </div>
 
