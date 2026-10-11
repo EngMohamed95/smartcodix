@@ -453,6 +453,325 @@ const projectsData = [
     ],
     "img": "/img/abusoud.png",
     "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 2,
+    "url": "https://www.khedrlabs.com/",
+    "category": "wordpress",
+    "titleEn": "Khedr Labs",
+    "titleAr": "معامل خضر",
+    "descEn": "Corporate Website",
+    "descAr": "منصة رقمية متكاملة لـ معامل خضر.",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "jQuery"
+    ],
+    "img": "/img/khedr.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 8,
+    "url": "https://matixerp.com/",
+    "category": "web",
+    "titleEn": "Matix ERP",
+    "titleAr": "ماتكس لأنظمة ERP",
+    "descEn": "Enterprise ERP",
+    "descAr": "منصة رقمية متكاملة لـ ماتكس لأنظمة ERP.",
+    "tags": [
+      "PHP",
+      "SQL",
+      "JavaScript"
+    ],
+    "img": "/img/matix.jpg",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 22,
+    "url": "https://alsaifkw.com/",
+    "category": "wordpress",
+    "titleEn": "Al Saif KW",
+    "titleAr": "السيف الكويت",
+    "descEn": "Corporate",
+    "descAr": "منصة رقمية متكاملة لـ السيف الكويت.",
+    "tags": [
+      "WordPress"
+    ],
+    "img": "/img/alsaif.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 30,
+    "url": "https://jalabyastore.com/",
+    "category": "wordpress",
+    "titleEn": "Jalabya Store",
+    "titleAr": "متجر جلابية",
+    "descEn": "E-commerce",
+    "descAr": "منصة رقمية متكاملة لـ متجر جلابية.",
+    "tags": [
+      "WooCommerce"
+    ],
+    "img": "/img/jalabya.jpg",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 31,
+    "url": "https://urbansectionkuwait.com/",
+    "category": "wordpress",
+    "titleEn": "Urban Section",
+    "titleAr": "أوربان سكشن الكويت",
+    "descEn": "Design",
+    "descAr": "منصة رقمية متكاملة لـ أوربان سكشن الكويت.",
+    "tags": [
+      "WordPress"
+    ],
+    "img": "/img/urban.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 44,
+    "url": "https://al-jawhara.com/",
+    "category": "web",
+    "titleEn": "Al-Jawhara",
+    "titleAr": "الجوهرة",
+    "descEn": "Corporate Website",
+    "descAr": "منصة رقمية متكاملة لـ الجوهرة.",
+    "tags": [
+      "React",
+      "Tailwind",
+      "CSS"
+    ],
+    "img": "/img/aljawhara.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 45,
+    "url": "https://oudalhashmi.com/",
+    "category": "web",
+    "titleEn": "Oud Al Hashmi",
+    "titleAr": "عود الهاشمي",
+    "descEn": "E-commerce Store",
+    "descAr": "منصة رقمية متكاملة لـ عود الهاشمي.",
+    "tags": [
+      "Shopify",
+      "Liquid",
+      "Custom Design"
+    ],
+    "img": "/img/oudalhashmi.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 46,
+    "url": "https://hisas.sa/",
+    "category": "web",
+    "titleEn": "Hisas Real Estate",
+    "titleAr": "حصص العقارية",
+    "descEn": "Real Estate",
+    "descAr": "منصة رقمية متكاملة لـ حصص العقارية.",
+    "tags": [
+      "React",
+      "Tailwind",
+      "Framer Motion"
+    ],
+    "img": "/img/hisas2.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 47,
+    "url": "https://rawayiastore.com/",
+    "category": "wordpress",
+    "titleEn": "Rawayia Store",
+    "titleAr": "متجر روائع",
+    "descEn": "E-commerce Store",
+    "descAr": "منصة رقمية متكاملة لـ متجر روائع.",
+    "tags": [
+      "WordPress",
+      "WooCommerce"
+    ],
+    "img": "/img/rawayia.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 48,
+    "url": "https://zoyastones.com/",
+    "category": "web",
+    "titleEn": "Zoya Stones",
+    "titleAr": "زويا ستونز",
+    "descEn": "E-commerce Store",
+    "descAr": "منصة رقمية متكاملة لـ زويا ستونز.",
+    "tags": [
+      "Shopify",
+      "Liquid",
+      "Custom Design"
+    ],
+    "img": "/img/zoya.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 49,
+    "url": "https://hibatfinance.com/",
+    "category": "web",
+    "titleEn": "Hiba Al-Khair",
+    "titleAr": "هبة الخير للوساطة المالية",
+    "descEn": "Financial Brokerage",
+    "descAr": "منصة رقمية متكاملة لـ هبة الخير للوساطة المالية.",
+    "tags": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "img": "/img/hibatalkhair.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 50,
+    "url": "https://lawyr-sa.smartcodix.com/",
+    "category": "web",
+    "titleEn": "LawyerOS",
+    "titleAr": "نظام إدارة المحاماة LawyerOS",
+    "descEn": "Legal CRM System",
+    "descAr": "منصة رقمية متكاملة لـ نظام إدارة المحاماة LawyerOS.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Vite"
+    ],
+    "img": "/img/lawyer.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 51,
+    "url": "https://adtodeal.com/#/landing",
+    "category": "web",
+    "titleEn": "AdToDeal AI",
+    "titleAr": "أد تو ديل للمبيعات بالذكاء الاصطناعي",
+    "descEn": "AI Sales CRM",
+    "descAr": "منصة رقمية متكاملة لـ أد تو ديل للمبيعات بالذكاء الاصطناعي.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "AI"
+    ],
+    "img": "/img/adtodeal.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 52,
+    "url": "https://meatport.net/menu",
+    "category": "web",
+    "titleEn": "MeatPort",
+    "titleAr": "ميت بورت",
+    "descEn": "SaaS Menu & CRM System",
+    "descAr": "منصة رقمية متكاملة لـ ميت بورت.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "SaaS"
+    ],
+    "img": "/img/meatport.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 53,
+    "url": "https://de-babel.com/",
+    "category": "wordpress",
+    "titleEn": "De Babel",
+    "titleAr": "مطعم دي بابل",
+    "descEn": "Restaurant & Dining",
+    "descAr": "منصة رقمية متكاملة لـ مطعم دي بابل.",
+    "tags": [
+      "WordPress",
+      "Elementor",
+      "UI/UX"
+    ],
+    "img": "/img/debabel.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 54,
+    "url": "https://albaraa.net/",
+    "category": "wordpress",
+    "titleEn": "Al-Baraa Furniture",
+    "titleAr": "البراء للأثاث",
+    "descEn": "Furniture Showroom",
+    "descAr": "منصة رقمية متكاملة لـ البراء للأثاث.",
+    "tags": [
+      "WordPress",
+      "WooCommerce",
+      "Elementor"
+    ],
+    "img": "/img/albaraa.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 55,
+    "url": "https://daralamarah.com/",
+    "category": "web",
+    "titleEn": "Dar Al Amarah",
+    "titleAr": "دار العمارة",
+    "descEn": "Landscaping & Architecture",
+    "descAr": "منصة رقمية متكاملة لـ دار العمارة.",
+    "tags": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "Motion"
+    ],
+    "img": "/img/daralamarah.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 56,
+    "url": "https://eldanimotors.com/",
+    "category": "wordpress",
+    "titleEn": "El Dani Motors",
+    "titleAr": "الداني موتورز",
+    "descEn": "Commercial Vehicles",
+    "descAr": "منصة رقمية متكاملة لـ الداني موتورز.",
+    "tags": [
+      "WordPress",
+      "Elementor",
+      "UI/UX"
+    ],
+    "img": "/img/eldanimotors.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 57,
+    "url": "https://harbiex.com/",
+    "category": "web",
+    "titleEn": "Harbi Exchange",
+    "titleAr": "الحربي للصرافة",
+    "descEn": "Currency Exchange",
+    "descAr": "منصة رقمية متكاملة لـ الحربي للصرافة.",
+    "tags": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "img": "/img/harbix.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
+  },
+  {
+    "id": 58,
+    "url": "https://a1esmat.com/",
+    "category": "web",
+    "titleEn": "Ahmed Esmat",
+    "titleAr": "أحمد عصمت للاستشارات العقارية",
+    "descEn": "Real Estate Advisory",
+    "descAr": "منصة رقمية متكاملة لـ أحمد عصمت للاستشارات العقارية.",
+    "tags": [
+      "React",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "img": "/img/esmat.png",
+    "gradient": "linear-gradient(135deg, #12111a 0%, #07070a 100%)"
   }
 ];
 
